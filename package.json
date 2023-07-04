@@ -1,17 +1,17 @@
 {
   "devDependencies": {
-    "node-sass": "^4.13.1",
-    "prettier": "^1.19.1",
-    "stylelint": "^13.1.0",
-    "stylelint-config-prettier": "^8.0.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6",
+    "stylelint": "^15.9.0",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-scss": "^3.14.2"
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-scss": "^5.0.1"
   },
   "scripts": {
-    "dev": "node-sass *.scss -o . --output-style expanded -w",
-    "build": "node-sass *.scss -o . --output-style expanded"
+    "dev": "sass *.scss *.css --style=expanded --no-source-map",
+    "build": "sass *.scss *.css --style=compressed --no-source-map"
   }
 }
