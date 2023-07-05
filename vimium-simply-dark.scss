@@ -36,7 +36,6 @@ $bs: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
 }
 
 #vomnibar {
-  padding-bottom: 0.5em;
   background: $bg;
   border: none;
   box-shadow: $bs;
@@ -104,6 +103,10 @@ $bs: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
 
     .vomnibarNoInsertText {
       display: none;
+    }
+
+    &:last-of-type {
+      padding-bottom: 16px;
     }
   }
 }
