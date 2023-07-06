@@ -47,16 +47,13 @@ $bs: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
     border: none;
   }
 
-  input {
-    outline: $bg solid 1px;
-  }
-
   .vomnibarSearchArea {
     padding: 12px 16px;
   }
 
   input {
     padding: 16px 8px;
+    outline: $bg solid 1px;
   }
 
   ul {
